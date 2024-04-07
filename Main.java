@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class ArrayResizer
+public class Main
 {
 	public static void main(String[] args) {
 //      Int array
