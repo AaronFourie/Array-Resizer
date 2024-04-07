@@ -36,7 +36,7 @@ public class Main
                 }
             }
         }
-        arr=temp;                          //Set original array as reszed array
+        arr=temp;                          //Set original array as resized array
         return arr;                        //Return resized array
     }
 }
