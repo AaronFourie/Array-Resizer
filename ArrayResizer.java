@@ -18,16 +18,17 @@ public class ArrayResizer
         if(capacity<=0){ //check for edge values
             return null; 
         }
-        int[] temp = new int[capacity]; 
         
+        int[] temp = new int[capacity]; 
         int i = 0; //val to hold array index
         int dif = capacity-arr.length; 
+
         if(dif<=0){
            for(i=0; i<capacity; i++){
                temp[i] = arr[i];
            } 
         }
-        else if(dif>0){
+        else {    
             for(int a=0; a<arr.length; a++){
                 temp[i] = arr[i];
                 i++;
